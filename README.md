@@ -3,7 +3,7 @@
 ## Overview
 This project focuses on implementing an efficient solution for solving the mathematical equation:
 
-$ res = a \cdot x + b \cdot y + c $
+$\res = a \cdot x + b \cdot y + c$
 
 using the **Zynq architecture**, which combines an **ARM processor** and an **FPGA**. The primary goal is to demonstrate the advantages of FPGA-based floating-point computations by leveraging parallelization and dedicated hardware.
 
@@ -71,9 +71,6 @@ The system consists of:
 This project demonstrates the feasibility and efficiency of FPGA-based floating-point arithmetic using **Zynq architecture**. While the implementation is complex, it provides a **high-performance solution** for real-time mathematical computations, with potential applications in **AI, DSP, and industrial control systems**.
 
 ---
-
-### Author
-**Stoica Sergiu** - Technical University of Cluj-Napoca, Faculty of Automation and Computers
 
 ### References
 - **Xilinx AXI Reference Guide** (https://www.xilinx.com)
