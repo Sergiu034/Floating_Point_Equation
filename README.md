@@ -3,7 +3,7 @@
 ## Overview
 This project focuses on implementing an efficient solution for solving the mathematical equation:
 
-\[ res = a \cdot x + b \cdot y + c \]
+$ res = a \cdot x + b \cdot y + c $
 
 using the **Zynq architecture**, which combines an **ARM processor** and an **FPGA**. The primary goal is to demonstrate the advantages of FPGA-based floating-point computations by leveraging parallelization and dedicated hardware.
 
