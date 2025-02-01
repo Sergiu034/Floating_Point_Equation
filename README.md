@@ -3,9 +3,9 @@
 ## Overview
 This project focuses on implementing an efficient solution for solving the mathematical equation:
 
-$\res = a \cdot x + b \cdot y + c$
+$res = a \cdot x + b \cdot y + c$
 
-using the **Zynq architecture**, which combines an **ARM processor** and an **FPGA**. The primary goal is to demonstrate the advantages of FPGA-based floating-point computations by leveraging parallelization and dedicated hardware.
+Using the **Zynq architecture**, which combines an **ARM processor** and an **FPGA**. The primary goal is to demonstrate the advantages of FPGA-based floating-point computations by leveraging parallelization and dedicated hardware.
 
 ## Features
 - Implements floating-point arithmetic using **IEEE 754** standard
@@ -45,13 +45,18 @@ The system consists of:
 
 ## Advantages
 ✅ **High performance** due to hardware parallelization
+
 ✅ **Full compliance** with IEEE 754 standard
+
 ✅ **Reduces processor workload** by offloading arithmetic operations to FPGA
+
 ✅ **Scalability** for more complex floating-point operations
 
 ## Limitations
 ⚠ **Increased hardware complexity** for additional arithmetic operations
+
 ⚠ **Relatively high FPGA resource consumption** for floating-point calculations
+
 ⚠ **More effort required** for validation and testing compared to software solutions
 
 ## Future Improvements
