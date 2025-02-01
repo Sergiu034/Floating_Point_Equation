@@ -1,0 +1,9 @@
++====================+===================+=======================================================================+
+| Launch Setup Clock | Launch Hold Clock | Pin                                                                   |
++====================+===================+=======================================================================+
+| clk_fpga_0         | clk_fpga_0        | design_1_i/fp_equation_solver_0/inst/Adder_AX_BY/B_sgn_reg/D          |
+| clk_fpga_0         | clk_fpga_0        | design_1_i/fp_equation_solver_0/inst/Adder_AX_BY/B_mantissa_reg[10]/D |
+| clk_fpga_0         | clk_fpga_0        | design_1_i/fp_equation_solver_0/inst/Adder_AX_BY/B_mantissa_reg[2]/D  |
+| clk_fpga_0         | clk_fpga_0        | design_1_i/fp_equation_solver_0/inst/Adder_AX_BY/B_mantissa_reg[1]/D  |
+| clk_fpga_0         | clk_fpga_0        | design_1_i/fp_equation_solver_0/inst/Adder_AX_BY/B_mantissa_reg[6]/D  |
++--------------------+-------------------+-----------------------------------------------------------------------+

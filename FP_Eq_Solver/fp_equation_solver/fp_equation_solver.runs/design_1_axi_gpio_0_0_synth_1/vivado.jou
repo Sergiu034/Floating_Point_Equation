@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Jan 14 22:13:12 2025
+# Process ID: 29936
+# Current directory: C:/Users/Sergiu/Desktop/FP_Eq_Solver/fp_equation_solver/fp_equation_solver.runs/design_1_axi_gpio_0_0_synth_1
+# Command line: vivado.exe -log design_1_axi_gpio_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_gpio_0_0.tcl
+# Log file: C:/Users/Sergiu/Desktop/FP_Eq_Solver/fp_equation_solver/fp_equation_solver.runs/design_1_axi_gpio_0_0_synth_1/design_1_axi_gpio_0_0.vds
+# Journal file: C:/Users/Sergiu/Desktop/FP_Eq_Solver/fp_equation_solver/fp_equation_solver.runs/design_1_axi_gpio_0_0_synth_1\vivado.jou
+# Running On        :Sergiu
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :AMD Ryzen 9 6900HS with Radeon Graphics        
+# CPU Frequency     :3294 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :16354 MB
+# Swap memory       :12348 MB
+# Total Virtual     :28702 MB
+# Available Virtual :7140 MB
+#-----------------------------------------------------------
+source design_1_axi_gpio_0_0.tcl -notrace

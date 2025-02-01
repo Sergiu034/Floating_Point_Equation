@@ -1,0 +1,52 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.832031",
+   "Default View_TopLeft":"42,169",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 1740 -y -60 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1740 -y -30 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -x 730 -y -250 -defaultsOSRD
+preplace inst fp_equation_solver_0 -pg 1 -lvl 2 -x 730 -y 380 -defaultsOSRD
+preplace inst axi_gpio_a -pg 1 -lvl 1 -x 340 -y 20 -defaultsOSRD
+preplace inst axi_gpio_b -pg 1 -lvl 1 -x 340 -y 160 -defaultsOSRD
+preplace inst axi_gpio_c -pg 1 -lvl 1 -x 340 -y 310 -defaultsOSRD
+preplace inst axi_gpio_x -pg 1 -lvl 1 -x 340 -y 450 -defaultsOSRD
+preplace inst axi_gpio_y -pg 1 -lvl 1 -x 340 -y 590 -defaultsOSRD
+preplace inst axi_gpio_done -pg 1 -lvl 3 -x 1180 -y 280 -defaultsOSRD
+preplace inst axi_gpio_rez -pg 1 -lvl 3 -x 1180 -y 450 -defaultsOSRD
+preplace inst axi_gpio_start -pg 1 -lvl 2 -x 730 -y 600 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 4 -x 1520 -y -50 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 3 -x 1180 -y -170 -defaultsOSRD
+preplace netloc axi_gpio_start_gpio_io_o 1 1 2 540 250 920
+preplace netloc fp_equation_solver_0_done 1 2 2 940 360 1350
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 160 -60 510 -40 980 -280 1360
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 2 1 950 -200n
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 0 4 200 670 520 240 990 150 1380
+preplace netloc axi_gpio_a_gpio_io_o 1 1 1 530 30n
+preplace netloc axi_gpio_b_gpio_io_o 1 1 1 490 170n
+preplace netloc axi_gpio_c_gpio_io_o 1 1 1 480 320n
+preplace netloc axi_gpio_x_gpio_io_o 1 1 1 480 410n
+preplace netloc axi_gpio_y_gpio_io_o 1 1 1 490 430n
+preplace netloc fp_equation_solver_0_axi_rez_22 1 2 2 1000J 370 1350
+preplace netloc processing_system7_0_DDR 1 2 3 NJ -300 1370 -320 1710
+preplace netloc processing_system7_0_FIXED_IO 1 2 3 920J -320 1350 -340 1720
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 2 950J -270 1350
+preplace netloc ps7_0_axi_periph_M00_AXI 1 0 5 150 -140 NJ -140 930J -310 1360J -330 1670
+preplace netloc ps7_0_axi_periph_M01_AXI 1 0 5 170 -130 NJ -130 940J -290 1380J -310 1660
+preplace netloc ps7_0_axi_periph_M02_AXI 1 0 5 190 680 NJ 680 NJ 680 NJ 680 1700
+preplace netloc ps7_0_axi_periph_M03_AXI 1 2 3 1010 530 NJ 530 1690
+preplace netloc ps7_0_axi_periph_M04_AXI 1 2 3 970 540 NJ 540 1680
+preplace netloc ps7_0_axi_periph_M05_AXI 1 1 4 540 520 930J 550 NJ 550 1670
+preplace netloc ps7_0_axi_periph_M06_AXI 1 0 5 150 700 NJ 700 NJ 700 NJ 700 1710
+preplace netloc ps7_0_axi_periph_M07_AXI 1 0 5 180 690 NJ 690 NJ 690 NJ 690 1660
+levelinfo -pg 1 -30 340 730 1180 1520 1740
+pagesize -pg 1 -db -bbox -sgen -30 -360 1850 780
+"
+}
+{
+   "da_axi4_cnt":"8",
+   "da_clkrst_cnt":"1",
+   "da_ps7_cnt":"1"
+}
